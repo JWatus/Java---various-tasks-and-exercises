@@ -1,4 +1,4 @@
-package xbonacci;
+package main.resources.java.xbonacci;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -65,23 +65,5 @@ public class Xbonacci {
 //    }
 
 
-/*    public static class Xbonacci {
-
-        public void xbonacci(double[] signature, int n) {
-            double sum = 0;
-            double[] table = new double[n];
-            for (int i = 0; i < signature.length ; i++) {
-                table[i] = signature[i];
-                sum = sum + table[i];
-            }
-            for (int i = signature.length; i < table.length; i++) {
-                table[i] = sum;
-                sum = sum + table[i] - table[i - signature.length];
-            }
-            for (int i = 0; i < table.length; i++) {
-                System.out.println(table[i]);
-            }
-        }
-    }*/
 
 

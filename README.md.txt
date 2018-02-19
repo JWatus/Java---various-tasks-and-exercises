@@ -1,1 +1,0 @@
-Excercises and tasks from Codewars and SPOJ (Sphere online judge).

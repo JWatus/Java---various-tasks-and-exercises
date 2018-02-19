@@ -1,4 +1,4 @@
-package aggregation;
+package main.resources.java.aggregation;
 
 import java.util.stream.*;
 import java.util.*;

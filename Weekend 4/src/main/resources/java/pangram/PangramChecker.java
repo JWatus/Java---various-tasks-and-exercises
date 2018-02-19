@@ -1,4 +1,4 @@
-package pangram;
+package main.resources.java.pangram;
 
 public class PangramChecker {
 

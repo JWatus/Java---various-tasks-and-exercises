@@ -28,8 +28,6 @@ class MyCanvas {
                 System.out.println(canvas[i][j]);
             }
         }
-
-
         return this;
     }
 
@@ -46,7 +44,6 @@ class MyCanvas {
 
 
     public String drawCanvas() {
-
 
 
 
