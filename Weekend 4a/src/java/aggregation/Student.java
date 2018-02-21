@@ -1,4 +1,4 @@
-package main.resources.java.aggregation;
+package java.aggregation;
 
 public class Student {
 

@@ -1,4 +1,4 @@
-package main.resources.java.pangram;
+package java.pangram;
 
 public class Main {
 

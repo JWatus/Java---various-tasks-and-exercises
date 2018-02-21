@@ -1,4 +1,4 @@
-package main.resources.java.node;
+package java.node;
 
 public class Kata {
 

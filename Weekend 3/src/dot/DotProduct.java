@@ -1,16 +1,16 @@
 package dot;
 
-import java.util.stream.IntStream;
-
 public class DotProduct {
 
     public static int dot(int[] a, int[] b) {
 
-        return IntStream.range(0, a.length)
+      //  return java.util.stream.IntStream.range(0, a.length)
+        // .reduce(0, (s,i) -> s+a[i]*b[i])
+
+        return java.util.stream.IntStream.range(0, a.length)
                 .map( id -> a[id] * b[id])
                 .sum();
     }
-
 }
 
 /*

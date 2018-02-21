@@ -1,4 +1,4 @@
-package main.resources.java.shapes;
+package java.shapes;
 
 import static java.lang.Double.compare;
 

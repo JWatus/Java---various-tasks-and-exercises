@@ -1,4 +1,4 @@
-package main.resources.java.xbonacci;
+package java.xbonacci;
 
 import java.util.*;
 import java.util.stream.Collectors;
