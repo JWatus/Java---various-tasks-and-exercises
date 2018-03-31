@@ -1,0 +1,7 @@
+client\WeatherDisplayer.class
+model\Main.class
+model\StateObject.class
+model\Wind.class
+servlet\WeatherServlet.class
+client\Main.class
+model\Weather.class

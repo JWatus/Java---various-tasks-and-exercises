@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello - do Your list!</title>
+</head>
+
+<html>
+<body>
+<center><h2>Create Your shopping list</h2>
+
+<form method="get" action="/product">
+    <h3>Add product</h3>
+    Name: <input type="text" name="name"/><br/><br/>
+    Quantity: <input type="text" name="quantity"/><br/><br/>
+    <input type="submit" name="action" value="Add"/><br/><br/>
+</form>
+
+<form method="get" action="/product">
+    <h3>Update product</h3>
+    ID: <input type="text" name="id"/><br/><br/>
+    Name: <input type="text" name="name"/><br/><br/>
+    Quantity: <input type="text" name="quantity"/><br/><br/>
+    <input type="submit" name="action" value="Update"/><br/><br/>
+</form>
+
+<form method="get" action="/product">
+    <h3>Delete product</h3>
+    ID: <input type="text" name="id"/><br/><br/>
+    <input type="submit" name="action" value="Delete"/><br/>
+</form>
+
+<form method="get" action="/product">
+    <br/>
+    Show all:<br/>
+    <input type="submit" name="action" value="FindAll"/><br/><br/>
+    Show all in reversed order:<br/>
+    <input type="submit" name="action" value="FindAllReversed"/><br/><br/>
+    Show all by name:<br/>
+    <input type="submit" name="action" value="FindAllByName"/><br/><br/>
+    Show all by quantity:<br/>
+    <input type="submit" name="action" value="FindAllByQuantity"/><br/><br/>
+</form>
+
+</center>
+</body>
+</html>
